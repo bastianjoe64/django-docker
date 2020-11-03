@@ -1,4 +1,4 @@
-FROM ubuntu:12.10
+FROM ubuntu:16.04
 RUN apt-get install -y python-dev python-setuptools supervisor git-core
 RUN easy_install pip
 RUN pip install virtualenv
